@@ -1,0 +1,25 @@
+{
+  "name": "zapscraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "start-multiple": "powershell src/start.ps1",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "dotenv": "^8.2.0",
+    "jest": "^24.9.0",
+    "node-fetch": "^2.6.0",
+    "node-html-parser": "^1.1.16",
+    "nodemailer": "^6.3.1",
+    "nodemon": "^2.0.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "twilio": "^3.37.1"
+  }
+}
